@@ -42,3 +42,11 @@ git add --all
 git status 
 git commit -m "sample files"
 git status 
+
+
+echo "demo 001" >> file1.txt 
+git status 
+git commit -m "updated file1"  file1.txt 
+git log
+git diff <previous_commit_id>
+git diff <commit_id_1> <commit_id_1>
