@@ -33,3 +33,12 @@ git add file2.txt
 git status 
 git commit -m "this is a sample message" file2.txt 
 git status 
+
+echo "demo" > file3.txt
+echo "demo" > file4.txt
+echo "demo" > file5.txt
+git status 
+git add --all 
+git status 
+git commit -m "sample files"
+git status 
