@@ -50,3 +50,6 @@ git commit -m "updated file1"  file1.txt
 git log
 git diff <previous_commit_id>
 git diff <commit_id_1> <commit_id_1>
+
+sudo apt install default-jdk 
+## Download and install Eclipse IDE for Java 
