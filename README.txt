@@ -7,5 +7,10 @@ tar xvfz v2.38.1.tar.gz
 cd git-2.38.1
 make prefix=/usr/local all
 sudo make prefix=/usr/local install
+
 git --version
+
+git config --global user.email "jai@demo.com"
+git config --global user.name "Jai"
+git config --global -l
 
