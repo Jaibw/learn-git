@@ -14,3 +14,9 @@ git config --global user.email "jai@demo.com"
 git config --global user.name "Jai"
 git config --global -l
 
+mkdir ~/repo01 
+cd ~/repo01 
+ls -lrt 
+git init 
+ls -lrt .git 
+git status 
