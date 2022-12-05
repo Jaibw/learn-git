@@ -20,3 +20,16 @@ ls -lrt
 git init 
 ls -lrt .git 
 git status 
+
+echo "demo" > file1.txt
+git status 
+git add file1.txt
+git status 
+git commit -m "this is a sample message" file1.txt 
+git status 
+echo "demo" > file2.txt
+git status 
+git add file2.txt
+git status 
+git commit -m "this is a sample message" file2.txt 
+git status 
